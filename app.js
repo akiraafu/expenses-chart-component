@@ -1,6 +1,5 @@
 import data from "./data.json" assert { type: "json" };
 
-// let getSingelArray = Object.values(data[1])
 let newArr = [];
 
 for (let i = 0; i < data.length; i++) {
@@ -28,8 +27,8 @@ function drawChart() {
 
     // Set chart options
     let options = {
-        width: 570,
-        height: 300,
+        width: 490,
+        height: 200,
         backgroundColor: "transparent",
         legend: { position: "none" },
         colors: ["#ec775f"],
